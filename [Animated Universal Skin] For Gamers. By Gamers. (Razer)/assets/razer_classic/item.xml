@@ -1,0 +1,2169 @@
+<ugcitem>
+	<param key="name" value="razer_classic"/>
+	<param key="type" value="weapon_skin"/>
+	<node name="data">
+		<param key="base_gradient_name" value="base_gradient.tga"/>
+		<param key="pattern_gradient_name" value="pattern_gradient.tga"/>
+		<param key="pattern_name" value="pattern.tga"/>
+		<param key="reserve_quality" value="true"/>
+		<node name="parts">
+			<!-- ============================== SNIPER SCOPES ============================== -->
+			<!-- Default Sniper Scope -->
+			<node name="wpn_fps_upg_o_shortdot">
+				<node name="b66ec4d8788ef90d">
+					<param key="uv_scale" value="Vector3(5.20654, 5.20654, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.394467, 0.883854, 0)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+				</node>
+			</node>
+			<!-- Default Sniper Scope (R700, Platypus 70) -->
+			<node name="wpn_fps_upg_o_shortdot_vanilla">
+				<node name="b66ec4d8788ef90d">
+					<param key="uv_scale" value="Vector3(5.20654, 5.20654, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.394467, 0.883854, 0)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+				</node>
+			</node>
+			<!-- Theia Magnified Scope -->
+			<node name="wpn_fps_upg_o_leupold">
+				<node name="9f2d522e73dfca11">
+					<param key="uv_scale" value="Vector3(8.06702, 8.06702, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.445028, 0.960172, 0)"/>
+				</node>
+			</node>
+			<!-- Box Buddy Sight -->
+			<node name="wpn_fps_upg_o_box">
+				<node name="4a95bf8afaaece6b">
+					<param key="uv_offset_rot" value="Vector3(0.0448997, 0.622742, 0)"/>
+					<param key="uv_scale" value="Vector3(8.73447, 8.73447, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+				</node>
+			</node>
+			
+			
+			
+			<!-- ============================== Rattlesnake ============================== -->
+			<!-- Default Body -->
+			<node name="wpn_fps_snp_msr_body_wood">
+				<node name="87fe9249b24cc408">
+					<param key="uv_offset_rot" value="Vector3(0.0157409, 0.922013, 0)"/>
+					<param key="uv_scale" value="Vector3(2.10769, 2.10769, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- Tactical Aluminum Body -->
+			<node name="wpn_fps_snp_msr_body_msr">
+				<node name="87fe9249b24cc408">
+					<param key="uv_offset_rot" value="Vector3(0.0157409, 0.922013, 0)"/>
+					<param key="uv_scale" value="Vector3(2.10769, 2.10769, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== R700 ============================== -->
+			<!-- Default Stock -->
+			<node name="wpn_fps_snp_r700_s_standard">
+				<node name="9b6171ad5889d1a9">
+					<param key="uv_scale" value="Vector3(7.78097, 4.11002, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0701165, 0.893394, 0)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- Military Stock -->
+			<node name="wpn_fps_snp_r700_s_military">
+				<node name="094a4b5c31016e62">
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.118757, 0.971252, 0.0204661)"/>
+					<param key="uv_scale" value="Vector3(9.25889, 5.37424, 1)"/>
+				</node>
+			</node>
+			<!-- Tactical Stock -->
+			<node name="wpn_fps_snp_r700_s_tactical">
+				<node name="c8c539349292ea55">
+					<param key="uv_offset_rot" value="Vector3(-0.0585768, 0.957172, 6.26919)"/>
+					<param key="uv_scale" value="Vector3(16.4101, 9.83099, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Bernetti Rangehitter ============================== -->
+			<!-- Default Lower Receiver -->
+			<node name="wpn_fps_snp_sbl_body_standard">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_offset_rot" value="Vector3(0.0157409, 0.7096, 6.15432)"/>
+					<param key="uv_scale" value="Vector3(4.68212, 4.68212, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Platypus 70 ============================== -->
+			<!-- Default Stock -->
+			<node name="wpn_fps_snp_model70_s_standard">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_offset_rot" value="Vector3(-0.0987356, 1.22728, 2.94154)"/>
+					<param key="uv_scale" value="Vector3(7.97167, 3.91932, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- Don Pastrami Stock (Add-On) -->
+			<node name="wpn_fps_snp_model70_s_legend_addon">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_offset_rot" value="Vector3(0.0930586, 0.947632, 0.0344661)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_scale" value="Vector3(9.78331, 10.9275, 1)"/>
+				</node>
+			</node>
+			<!-- ============================== Lebensauger .308 ============================== -->
+			<!-- Default Receiver -->
+			<node name="wpn_fps_snp_wa2000_body_standard">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_offset_rot" value="Vector3(0, 0.904934, 6.27619)"/>
+					<param key="uv_scale" value="Vector3(6.9705, 6.9705, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Desertfox ============================== -->
+			<!-- Default Receiver -->
+			<node name="wpn_fps_snp_desertfox_body">
+				<node name="23c3c33b6f6d661d">
+					<param key="uv_offset_rot" value="Vector3(0.35917, 0.960172, 1.56595)"/>
+					<param key="uv_scale" value="Vector3(4.01467, 4.01467, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Contractor .308 ============================== -->
+			<!-- Default Lower Receiver -->
+			<node name="wpn_fps_snp_tti_body_receiverlower">
+				<node name="c86287031d5dcece">
+					<param key="uv_scale" value="Vector3(3.67895, 3.67895, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.331011, 1.15897, 0)"/>
+				</node>
+			</node>
+			<!-- Default Upper Receiver -->
+			<node name="wpn_fps_snp_tti_body_receiverupper">
+				<node name="f1103bcf935702a0">
+					<param key="uv_offset_rot" value="Vector3(-0.155974, 0.635822, 0)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_scale" value="Vector3(3.0135, 3.0135, 1)"/>
+				</node>
+			</node>
+			<!-- ============================== R93 ============================== -->
+			<!-- Default Body -->
+			<node name="wpn_fps_snp_r93_body_standard">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_scale" value="Vector3(9.73564, 9.73564, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.0809792, 0.946632, 0)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- Wooden Body -->
+			<node name="wpn_fps_snp_r93_body_wood">
+				<node name="7f00f88acff91cd1">
+					<param key="uv_offset_rot" value="Vector3(0.0765188, 0.955632, 6.25819)"/>
+					<param key="uv_scale" value="Vector3(8.01935, 8.01935, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Repeater 1874 ============================== -->
+			<!-- A5 Scope -->
+			<node name="wpn_fps_upg_winchester_o_classic">
+				<node name="ecae949fc3f5e673">
+					<param key="uv_scale" value="Vector3(5.58794, 5.58794, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0701165, 0.962172, 0)"/>
+				</node>
+			</node>
+			<!-- Default Receiver -->
+			<node name="wpn_fps_snp_winchester_body_standard">
+				<node name="8980b51e90670fd7">
+				</node>
+				<node name="c3ba24da2eab3277">
+					<param key="uv_offset_rot" value="Vector3(-0.28953, 0.868775, 0)"/>
+					<param key="uv_scale" value="Vector3(8.73447, 8.73447, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Grom ============================== -->
+			<!-- Default Scope Mount -->
+			<node name="wpn_fps_snp_siltstone_o_scopemount">
+				<node name="9e0fe758b6d0c9b9">
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_scale" value="Vector3(2.72746, 2.72746, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0690371, 1.00433, 0)"/>
+				</node>
+			</node>
+			<!-- Default Receiver -->
+			<node name="wpn_fps_snp_siltstone_body_receiver">
+				<node name="ef042830431cd6a3">
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0594973, 0.983791, 6.27419)"/>
+					<param key="uv_scale" value="Vector3(3.68095, 3.68095, 1)"/>
+				</node>
+			</node>
+			<!-- ============================== Nagant ============================== -->
+			<!-- Default Stock -->
+			<node name="wpn_fps_snp_mosin_body_standard">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_scale" value="Vector3(7.5426, 7.5426, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.111138, 0.953172, 6.13634)"/>
+				</node>
+			</node>
+			<!-- Discreet Stock -->
+			<node name="wpn_fps_snp_mosin_body_black">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_scale" value="Vector3(7.5426, 7.5426, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.111138, 0.953172, 6.13634)"/>
+				</node>
+			</node>
+			<!-- ============================== Thanatos .50 cal ============================== -->
+			<!-- Default Upper Receiver -->
+			<node name="wpn_fps_snp_m95_upper_reciever">
+				<node name="ce53cb869d779872">
+					<param key="uv_scale" value="Vector3(4.63444, 8.16237, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.139757, 1.00333, 0)"/>
+				</node>
+			</node>
+			<!-- Suppressed Barrel -->
+			<node name="wpn_fps_snp_m95_barrel_suppressed">
+				<node name="c8b1af531fac393d">
+					<param key="uv_offset_rot" value="Vector3(0.0569791, 0.942093, 0)"/>
+					<param key="sticker_name" value="stk_fgbg_classic.tga"/>
+					<param key="uv_scale" value="Vector3(1.77396, 1.77396, 1)"/>
+				</node>
+			</node>
+			<!-- ============================== Káng Arms X1 ============================== -->
+			<!-- Default Lower Receiver -->
+			<node name="wpn_fps_snp_qbu88_body_standard">
+				<node name="11f00d59e01de219">
+					<param key="uv_offset_rot" value="Vector3(-0.0510371, 1.03449, 0.0184661)"/>
+					<param key="uv_scale" value="Vector3(8.3054, 8.3054, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			
+			
+			
+			<!-- ============================== MOSSBERG WEAPON FAMILY ============================== -->
+			<!-- Default Receiver (Reinfeld 880, Locomotive 12G) -->
+			<node name="wpn_fps_shot_r870_body_standard">
+				<node name="1ee881ec5ceb5463">
+					<param key="uv_scale" value="Vector3(2.63211, 2.63211, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.177916, 0.874315, 0)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- Default Receiver (Mosconi 12G Tactical) -->
+			<node name="wpn_fps_sho_m590_body_standard">
+				<node name="c3ba24da2eab3277">
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+					<param key="uv_scale" value="Vector3(2.63211, 2.63211, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.120815, 0.908934, 0)"/>
+				</node>
+			</node>
+			<!-- CE Rail Stabilizer (Mosconi 12G Tactical) -->
+			<node name="wpn_fps_sho_m590_body_rail">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_offset_rot" value="Vector3(-0.0908149, 0.908934, 0)"/>
+					<param key="uv_scale" value="Vector3(3.0135, 3.0135, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Judge ============================== -->
+			<node name="wpn_fps_pis_judge_body_standard">
+				<node name="b2d80ae4b017b88d">
+					<param key="uv_scale" value="Vector3(6.01701, 6.01701, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.149297, 0.853695, 0)"/>
+				</node>
+			</node>
+			<node name="wpn_fps_pis_judge_body_modern">
+				<node name="d5c9ca7ed8ec36f9">
+					<param key="uv_scale" value="Vector3(8.63912, 8.63912, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.127217, 0.946632, 0)"/>
+				</node>
+			</node>
+			<node name="wpn_fps_pis_judge_b_legend_addon">
+				<node name="2daceed8f2859e2f">
+					<param key="uv_offset_rot" value="Vector3(0.244694, 0.902934, 0)"/>
+					<param key="uv_scale" value="Vector3(6.06468, 6.06468, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Grimm 12G ============================== -->
+			<node name="wpn_fps_sho_basset_body_standard">
+				<node name="c3af0c4d2bfc6470">
+					<param key="uv_scale" value="Vector3(6.63678, 6.63678, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.156837, 1.10827, 1.57391)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_sho_basset_fg_standard">
+				<node name="adb094eda228f51d">
+					<param key="uv_scale" value="Vector3(2.91815, 2.91815, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.120678, 1.46778, 3.14335)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_sho_basset_fg_short">
+				<node name="337f387d25f692e3">
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.0252806, 1.46078, 3.14335)"/>
+					<param key="uv_scale" value="Vector3(2.91815, 2.91815, 1)"/>
+				</node>
+			</node>
+			<!-- ============================== Goliath 12G ============================== -->
+			<node name="wpn_fps_sho_rota_body_lower">
+				<node name="dc1648d19c6d9f6a">
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+					<param key="uv_scale" value="Vector3(2.82281, 2.82281, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.259773, 0.71514, 0.02)"/>
+				</node>
+			</node>
+			<!-- ============================== Street Sweeper ============================== -->
+			<node name="wpn_fps_sho_striker_body_standard">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_scale" value="Vector3(8.82982, 8.82982, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.140297, 0.596663, 1.56593)"/>
+				</node>
+			</node>
+			<!-- ============================== Steakout ============================== -->
+			<node name="wpn_fps_sho_aa12_body">
+				<node name="44d4b927f9216cbc">
+					<param key="uv_offset_rot" value="Vector3(0.0262806, 0.936093, 0.0194812)"/>
+					<param key="uv_scale" value="Vector3(5.20654, 5.20654, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_sho_aa12_mag_drum">
+				<node name="49f4c908fb7b6ddc">
+					<param key="uv_offset_rot" value="Vector3(0.200916, 1.00641, 4.70482)"/>
+					<param key="sticker_name" value="stk_fgbg_classic.tga"/>
+					<param key="uv_scale" value="Vector3(1.21687, 1.21687, 1)"/>
+				</node>
+			</node>
+			<!-- ============================== Raven ============================== -->
+			<node name="wpn_fps_sho_ksg_body_standard">
+				<node name="24f8a31eed44307b">
+					<param key="uv_offset_rot" value="Vector3(0.225614, 1.10327, 0)"/>
+					<param key="uv_scale" value="Vector3(3.91932, 3.91932, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Predator 12G ============================== -->
+			<node name="wpn_fps_sho_body_spas12_standard">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_offset_rot" value="Vector3(-0.324689, 0.932553, 0)"/>
+					<param key="uv_scale" value="Vector3(3.63328, 3.63328, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== GSPS 12G ============================== -->
+			<node name="wpn_fps_shot_m37_body_standard">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_offset_rot" value="Vector3(-0.27999, 0.759838, 4.712)"/>
+					<param key="uv_scale" value="Vector3(1.82164, 1.82164, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== M1014 ============================== -->
+			<node name="wpn_fps_sho_ben_body_standard">
+				<node name="87fe9249b24cc408">
+					<param key="uv_offset_rot" value="Vector3(0.327011, 0.626822, 0)"/>
+					<param key="uv_scale" value="Vector3(2.87048, 2.87048, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Reinfeld 88 ============================== -->
+			<node name="wpn_fps_shot_m1897_body_standard">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_offset_rot" value="Vector3(-0.0621165, 0.954632, 6.25319)"/>
+					<param key="uv_scale" value="Vector3(5.44491, 5.44491, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Breaker 12G ============================== -->
+			<!-- Default Receiver -->
+			<node name="wpn_fps_sho_boot_body_standard">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_scale" value="Vector3(5.72896, 5.72896, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0022591, 0.895394, 3.81067)"/>
+				</node>
+			</node>
+			<!-- Treated Body -->
+			<node name="wpn_fps_sho_boot_body_exotic">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_scale" value="Vector3(5.72896, 5.72896, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0022591, 0.895394, 3.81067)"/>
+				</node>
+			</node>
+			<!-- Default Foregrip -->
+			<node name="wpn_fps_sho_boot_fg_standard">
+				<node name="964161b4eb4b81d3">
+					<param key="uv_offset_rot" value="Vector3(-0.0450371, 0.958172, 0)"/>
+					<param key="uv_scale" value="Vector3(7.3519, 7.3519, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- Apex Barrel (Add-On) -->
+			<node name="wpn_fps_sho_boot_b_legendary_addon">
+				<node name="09971859b698c3c6">
+					<param key="uv_offset_rot" value="Vector3(0.38679, 0.725679, 0.40909)"/>
+					<param key="uv_scale" value="Vector3(7.97167, 7.97167, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Joceline O/U 12G ============================== -->
+			<node name="wpn_fps_shot_b682_b_long">
+				<node name="f8285577d054fec3">
+					<param key="uv_scale" value="Vector3(5.34956, 5.34956, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.402546, 1.13227, 0)"/>
+				</node>
+			</node>
+			<node name="wpn_fps_shot_b682_b_short">
+				<node name="f8285577d054fec3">
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_scale" value="Vector3(5.34956, 5.34956, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.386546, 1.13227, 0)"/>
+				</node>
+			</node>
+			<node name="wpn_fps_shot_b682_body_standard">
+				<node name="fe23c40be9244117">
+					<param key="uv_offset_rot" value="Vector3(0.313552, 0.823616, 6.23923)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_scale" value="Vector3(2.87048, 2.87048, 1)"/>
+				</node>
+			</node>
+			<!-- ============================== Mosconi 12G ============================== -->
+			<node name="wpn_fps_shot_huntsman_b_short">
+				<node name="69dcdb3765733355">
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_scale" value="Vector3(3.2042, 3.2042, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.213212, 0.863315, 0.043451)"/>
+				</node>
+			</node>
+			<node name="wpn_fps_shot_huntsman_b_long">
+				<node name="fd98dad19f611e8e">
+					<param key="uv_offset_rot" value="Vector3(-0.27045, 0.928013, 0.0344661)"/>
+					<param key="uv_scale" value="Vector3(4.58677, 4.58677, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_shot_huntsman_s_long">
+				<node name="4bcff46545d1e698">
+					<param key="uv_scale" value="Vector3(6.68446, 7.30423, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.979251, 0.35917, 1.83266)"/>
+				</node>
+			</node>
+			<node name="wpn_fps_shot_huntsman_s_short">
+				<node name="b89446681751e14e">
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_scale" value="Vector3(10.3077, 10.8798, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.04636, 0.957172, 1.96752)"/>
+				</node>
+			</node>
+			<!-- ============================== Claire 12G ============================== -->
+			<node name="wpn_fps_sho_coach_body_standard">
+				<node name="5773e4ca83aedc88">
+					<param key="uv_scale" value="Vector3(9.97401, 9.97401, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.174053, 0.867235, 3.43605)"/>
+				</node>
+			</node>
+			<node name="wpn_fps_sho_coach_b_standard">
+				<node name="6cda568470fcfad3">
+					<param key="uv_scale" value="Vector3(4.1577, 4.1577, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.241831, 0.922013, 0)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_sho_coach_b_short">
+				<node name="53d3dbc03e07320e">
+					<param key="uv_scale" value="Vector3(4.1577, 4.1577, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.175053, 0.862315, 0)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			
+			
+			
+			<!-- ============================== Commando 101 ============================== -->
+			<node name="wpn_fps_gre_ray_body">
+				<node name="555cc54fda64233c">
+					<param key="uv_offset_rot" value="Vector3(0.0664394, 0.918013, 0)"/>
+					<param key="uv_scale" value="Vector3(3.7763, 3.7763, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+				<node name="11d655c63b5997bb">
+					<param key="uv_scale" value="Vector3(2.53676, 2.53676, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.136894, 0.673981, 1.00849)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== HRL-7 ============================== -->
+			<node name="wpn_fps_rpg7_body">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_scale" value="Vector3(6.49376, 6.49376, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.330551, 0.957632, 0)"/>
+				</node>
+			</node>
+			<node name="wpn_fps_rpg7_m_rocket">
+				<node name="108538e257e2a684">
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.217075, 1.05557, 0)"/>
+					<param key="uv_scale" value="Vector3(10.9752, 9.59261, 1)"/>
+				</node>
+			</node>
+			<node name="wpn_fps_rpg7_m_grinclown_addon">
+				<node name="108538e257e2a684">
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_scale" value="Vector3(19.1752, 12.7391, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.101598, 1.04703, 0)"/>
+				</node>
+			</node>
+			<!-- ============================== Compact 40mm ============================== -->
+			<node name="wpn_fps_gre_slap_b_standard">
+				<node name="4af0a3051d728553">
+					<param key="uv_offset_rot" value="Vector3(-0.409466, 1.17043, 1.57093)"/>
+					<param key="uv_scale" value="Vector3(2.06001, 2.06001, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== China Puff 40mm ============================== -->
+			<node name="wpn_fps_gre_china_body_standard">
+				<node name="ce53cb869d779872">
+					<param key="uv_scale" value="Vector3(15.2659, 15.2659, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0214179, 0.886854, 0)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_gre_china_b_standard">
+				<node name="0c2a90bd61b7c6f9">
+					<param key="uv_offset_rot" value="Vector3(0.217075, 0.959632, 0.003)"/>
+					<param key="uv_scale" value="Vector3(5.82631, 5.82631, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Arbiter ============================== -->
+			<node name="wpn_fps_gre_arbiter_s_standard">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_scale" value="Vector3(18.4124, 19.997, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.125678, 0.957632, 0.22927)"/>
+				</node>
+			</node>
+			<node name="wpn_fps_gre_arbiter_b_standard">
+				<node name="0c2a90bd61b7c6f9">
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_scale" value="Vector3(5.87399, 5.87399, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.121059, 1.09419, 3.13435)"/>
+				</node>
+			</node>
+			<node name="wpn_fps_gre_arbiter_b_comp">
+				<node name="0c2a90bd61b7c6f9">
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_scale" value="Vector3(5.87399, 5.87399, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.121059, 1.09419, 3.13435)"/>
+				</node>
+			</node>
+			<node name="wpn_fps_gre_arbiter_b_long">
+				<node name="0c2a90bd61b7c6f9">
+					<param key="uv_scale" value="Vector3(8.21005, 5.87399, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.144297, 1.09419, 3.13435)"/>
+				</node>
+			</node>
+			<!-- ============================== GL40 ============================== -->
+			<node name="wpn_fps_gre_m79_barrel">
+				<node name="0c2a90bd61b7c6f9">
+					<param key="uv_offset_rot" value="Vector3(-0.28953, 1.26544, 0)"/>
+					<param key="uv_scale" value="Vector3(2.39373, 2.39373, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_gre_m79_barrel_short">
+				<node name="0c2a90bd61b7c6f9">
+					<param key="uv_offset_rot" value="Vector3(-0.28953, 1.26544, 0)"/>
+					<param key="uv_scale" value="Vector3(2.39373, 2.39373, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Piglet ============================== -->
+			<node name="wpn_fps_gre_m32_upper_reciever">
+				<node name="cd462e276c83a452">
+					<param key="uv_scale" value="Vector3(8.87749, 8.87749, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.125678, 0.871775, 0)"/>
+				</node>
+			</node>
+			<node name="wpn_fps_gre_m32_lower_reciever">
+				<node name="cd462e276c83a452">
+					<param key="uv_offset_rot" value="Vector3(-0.207053, 1.04503, 0.693803)"/>
+					<param key="uv_scale" value="Vector3(14.4078, 14.4078, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+				</node>
+			</node>
+			
+			
+			
+			<!-- ============================== AK WEAPON FAMILY ============================== -->
+			<!-- Default Lower Receiver (AK, AK.762) -->
+			<node name="wpn_fps_ass_ak_body_lowerreceiver">
+				<node name="beb7f4e5656e4995">
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0796562, 0.912473, 0)"/>
+					<param key="uv_scale" value="Vector3(2.48908, 2.48908, 1)"/>
+				</node>
+			</node>
+			<!-- Default Lower Receiver (IZHMA 12G, Krinkov, Akimbo Krinkov) -->
+			<node name="wpn_fps_smg_akmsu_body_lowerreceiver">
+				<node name="beb7f4e5656e4995">
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0796562, 0.912473, 0)"/>
+					<param key="uv_scale" value="Vector3(2.48908, 2.48908, 1)"/>
+				</node>
+			</node>
+			<!-- Default Lower Receiver (RPK) -->
+			<node name="wpn_fps_lmg_rpk_body_lowerreceiver">
+				<node name="beb7f4e5656e4995">
+					<param key="uv_scale" value="Vector3(2.48908, 2.48908, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0796562, 0.912473, 0)"/>
+				</node>
+			</node>
+			<!-- Scope Mount (AK, AK.762, Golden AK.762, Krinkov, IZHMA 12G) -->
+			<node name="wpn_fps_upg_o_ak_scopemount">
+				<node name="c754a30cd4713c3f">
+					<param key="uv_offset_rot" value="Vector3(-0.0148782, 0.833156, 0)"/>
+					<param key="uv_scale" value="Vector3(5.06352, 5.06352, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			
+			<!-- ============================== CAR WEAPON FAMILY ============================== -->
+			<!-- Default Lower Receiver (CAR-4, AMCAR, AMR-16, Para, Akimbo Para) -->
+			<node name="wpn_fps_m4_lower_reciever">
+				<node name="6e91ed22414b0c28">
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_scale" value="Vector3(4.49142, 4.49142, 0)"/>
+					<param key="uv_offset_rot" value="Vector3(0.263773, 0.740759, 0)"/>
+				</node>
+			</node>
+			<!-- Default Upper Receiver (CAR-4, AMR-16, Para, Akimbo Para) -->
+			<node name="wpn_fps_m4_upper_reciever_round">
+				<node name="23d7ffd2ce6e41be">
+					<param key="uv_scale" value="Vector3(3.0135, 3.0135, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.203672, 0.826616, 0)"/>
+				</node>
+			</node>
+			<!-- Exotique Receiver (CAR-4, AMR-16, Para, Akimbo Para) -->
+			<node name="wpn_fps_m4_upper_reciever_edge">
+				<node name="8000e7e01721a301">
+					<param key="uv_scale" value="Vector3(3.0135, 3.0135, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.260911, 0.883854, 0)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- LW Upper Receiver (CAR-4, AMR-16, Para, Akimbo Para) -->
+			<node name="wpn_fps_upg_ass_m4_upper_reciever_ballos">
+				<node name="284352a3af612202">
+					<param key="uv_scale" value="Vector3(3.0135, 3.0135, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.184593, 0.864775, 0)"/>
+				</node>
+			</node>
+			<!-- THRUST Upper Receiver (CAR-4, AMR-16, Para, Akimbo Para) -->
+			<node name="wpn_fps_upg_ass_m4_upper_reciever_core">
+				<node name="ce53cb869d779872">
+					<param key="uv_offset_rot" value="Vector3(-0.184593, 0.870775, 0)"/>
+					<param key="uv_scale" value="Vector3(3.0135, 3.0135, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- Default Carry Handle Upper Receiver (AMCAR) -->
+			<node name="wpn_fps_amcar_uupg_body_upperreciever">
+				<node name="c6b3d56b4034e147">
+					<param key="uv_scale" value="Vector3(3.0135, 3.0135, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.181593, 1.03095, 4.71577)"/>
+				</node>
+			</node>
+			<!-- Default Railed Upper Receiver (AMCAR) -->
+			<node name="wpn_fps_m4_upper_reciever_round_vanilla">
+				<node name="23d7ffd2ce6e41be">
+					<param key="uv_scale" value="Vector3(3.0135, 3.0135, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.203672, 0.826616, 0)"/>
+				</node>
+			</node>
+			
+			<!-- ============================== AK17 ============================== -->
+			<!-- Default Upper Receiver -->
+			<node name="wpn_fps_ass_flint_body_upperreceiver">
+				<node name="b713aa75c1fea5ea">
+					<param key="uv_offset_rot" value="Vector3(-0.00333852, 0.778378, 0)"/>
+					<param key="uv_scale" value="Vector3(2.96583, 2.96583, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== AMR-16 Astatoz ============================== -->
+			<node name="wpn_fps_ass_m16_s_legend_addon">
+				<node name="6418a621c67b737b">
+					<param key="uv_offset_rot" value="Vector3(0.139757, 0.915473, 0)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_scale" value="Vector3(8.73447, 8.73447, 1)"/>
+				</node>
+			</node>
+			<node name="wpn_fps_ass_m16_fg_legend_addon">
+				<node name="9b7258408e6d505e">
+					<param key="uv_offset_rot" value="Vector3(0.241694, 0.964172, 0)"/>
+					<param key="sticker_name" value="stk_fgbg_classic.tga"/>
+					<param key="uv_scale" value="Vector3(2.58443, 2.58443, 1)"/>
+				</node>
+			</node>
+			<!-- ============================== Little Friend 7.62 ============================== -->
+			<node name="wpn_fps_ass_contraband_body_standard">
+				<node name="ce53cb869d779872">
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.136894, 0.902934, 6.26821)"/>
+					<param key="uv_scale" value="Vector3(4.92049, 4.92049, 1)"/>
+				</node>
+				<node name="11f00d59e01de219">
+					<param key="uv_scale" value="Vector3(15.0275, 15.0275, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0269576, 0.894394, 0)"/>
+				</node>
+			</node>
+			<!-- ============================== Bootleg ============================== -->
+			<node name="wpn_fps_ass_tecci_upper_reciever">
+				<node name="ce53cb869d779872">
+					<param key="uv_scale" value="Vector3(4.92049, 4.92049, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.127355, 0.892394, 0)"/>
+				</node>
+			</node>
+			<node name="wpn_fps_ass_tecci_lower_reciever">
+				<node name="11f00d59e01de219">
+					<param key="uv_offset_rot" value="Vector3(0.125217, 0.655441, 0)"/>
+					<param key="uv_scale" value="Vector3(13.931, 13.931, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Commando 553 ============================== -->
+			<node name="wpn_fps_ass_s552_body_standard">
+				<node name="87fe9249b24cc408">
+					<param key="uv_scale" value="Vector3(2.63211, 2.63211, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0987356, 0.883854, 0)"/>
+				</node>
+			</node>
+			<node name="wpn_fps_ass_s552_body_standard_black">
+				<node name="87fe9249b24cc408">
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+					<param key="uv_scale" value="Vector3(2.91815, 1.39256, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.174916, 0.885854, 0)"/>
+				</node>
+			</node>
+			<!-- ============================== Tempest-21 ============================== -->
+			<node name="wpn_fps_ass_komodo_body">
+				<node name="24f8a31eed44307b">
+					<param key="uv_offset_rot" value="Vector3(-0.0731959, 0.965712, 4.71179)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+					<param key="uv_scale" value="Vector3(3.63328, 7.1612, 1)"/>
+				</node>
+			</node>
+			<!-- ============================== UAR ============================== -->
+			<node name="wpn_fps_aug_body_aug">
+				<node name="5ba04640e2154370">
+					<param key="uv_offset_rot" value="Vector3(0.0252806, 0.960172, 0)"/>
+					<param key="uv_scale" value="Vector3(4.3484, 4.3484, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_aug_body_f90">
+				<node name="95bfdcb42237fbb7">
+					<param key="uv_offset_rot" value="Vector3(-0.319149, 0.818076, 0)"/>
+					<param key="uv_scale" value="Vector3(4.30072, 4.30072, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Valkyria ============================== -->
+			<node name="wpn_fps_ass_asval_body_standard">
+				<node name="0b27db0c0746aa95">
+					<param key="uv_offset_rot" value="Vector3(0.279313, 0.933093, 0)"/>
+					<param key="uv_scale" value="Vector3(3.44258, 3.44258, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_ass_asval_scopemount">
+				<node name="939cddf1e5b0a26e">
+					<param key="uv_offset_rot" value="Vector3(-0.232911, 0.633282, 0)"/>
+					<param key="uv_scale" value="Vector3(1.91699, 1.91699, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Cavity 9mm ============================== -->
+			<node name="wpn_fps_ass_sub2000_body_gen1">
+				<!-- Default / Delabarre -->
+				<node name="2666afbed4cbd95e">
+					<param key="uv_offset_rot" value="Vector3(0.188456, 0.979251, 0)"/>
+					<param key="uv_scale" value="Vector3(5.58794, 5.58794, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+				<!-- Appalachian / Tooth Fairy -->
+				<node name="f7fb23463f90da73">
+					<param key="uv_scale" value="Vector3(5.58794, 5.58794, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.337091, 0.969251, 0)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Union 5.56 ============================== -->
+			<node name="wpn_fps_ass_corgi_body_lower_standard">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_scale" value="Vector3(8.01935, 8.01935, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0484974, 0.966092, 0)"/>
+				</node>
+			</node>
+			<node name="wpn_fps_ass_corgi_body_lower_strap">
+				<node name="1ee6f49aa1196874">
+					<param key="uv_scale" value="Vector3(8.01935, 8.01935, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0484974, 0.966092, 0)"/>
+				</node>
+			</node>
+			<!-- ============================== M308 ============================== -->
+			<!-- Default Stock -->
+			<node name="wpn_fps_ass_m14_body_dmr">
+				<node name="ba8724476040d64d">
+					<param key="uv_scale" value="Vector3(5.06352, 5.06352, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.04436, 0.948632, 0)"/>
+				</node>
+			</node>
+			<!-- Abraham Body -->
+			<node name="wpn_fps_ass_m14_body_ebr">
+				<node name="0c091f62a1b5c8fa">
+					<param key="uv_scale" value="Vector3(6.16003, 6.16003, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.215535, 0.945632, 0)"/>
+				</node>
+			</node>
+			<!-- Jaeger Body -->
+			<node name="wpn_fps_ass_m14_body_jae">
+				<node name="1126d28d0347a98d">
+					<param key="uv_scale" value="Vector3(6.35073, 6.35073, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.101598, 0.948093, 6.22923)"/>
+				</node>
+			</node>
+			<!-- Plush Phoenix Stock (Add-On) -->
+			<node name="wpn_fps_ass_m14_body_legendary_addon">
+				<node name="c3ba24da2eab3277">
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+					<param key="uv_scale" value="Vector3(3.5856, 3.5856, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0435768, 0.916013, 6.25019)"/>
+				</node>
+			</node>
+			<!-- B-Team Stock -->
+			<node name="wpn_fps_ass_m14_body_ruger">
+				<node name="17494cdccab42332">
+					<param key="uv_offset_rot" value="Vector3(-0.0696562, 1.04149, 6.23823)"/>
+					<param key="uv_scale" value="Vector3(5.25421, 5.25421, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Galant ============================== -->
+			<node name="wpn_fps_ass_ching_s_standard">
+				<node name="02a5fe996883b3c2">
+					<param key="uv_offset_rot" value="Vector3(0.120678, 0.750298, 0.007)"/>
+					<param key="uv_scale" value="Vector3(4.58677, 2.25071, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_ass_ching_s_pouch">
+				<node name="02a5fe996883b3c2">
+					<param key="uv_offset_rot" value="Vector3(0.120678, 0.750298, 0.007)"/>
+					<param key="uv_scale" value="Vector3(4.58677, 2.25071, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== JP36 ============================== -->
+			<!-- Default Receiver (Default Stock / Solid Stock) -->
+			<node name="wpn_fps_ass_g36_body_standard">
+				<node name="6de7f6ff921d8dad">
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+					<param key="uv_scale" value="Vector3(3.44258, 3.68095, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.0538997, 0.817076, 0)"/>
+				</node>
+			</node>
+			<!-- Default Receiver (Sniper Stock) -->
+			<node name="wpn_fps_ass_g36_body_sl8">
+				<node name="6de7f6ff921d8dad">
+					<param key="uv_offset_rot" value="Vector3(-0.00579881, 0.792997, 0)"/>
+					<param key="uv_scale" value="Vector3(3.29955, 3.29955, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- JP36 Long Foregrip -->
+			<node name="wpn_fps_upg_g36_fg_long">
+				<node name="883801926d0d04af">
+					<param key="uv_offset_rot" value="Vector3(0.0865189, 0.972712, 0)"/>
+					<param key="uv_scale" value="Vector3(2.82281, 2.82281, 1)"/>
+					<param key="sticker_name" value="stk_fgbg_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Gewehr 3 ============================== -->
+			<!-- Default Upper Receiver -->
+			<node name="wpn_fps_ass_g3_body_upper">
+				<node name="a9d308dcd9927776">
+					<param key="uv_scale" value="Vector3(2.01234, 1.96466, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0891959, 0.892394, 0)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- Default Foregrip -->
+			<node name="wpn_fps_ass_g3_fg_bipod">
+				<node name="cd5f53d4ba288cc3">
+					<param key="uv_scale" value="Vector3(1.53059, 1.53059, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.105815, 0.893934, 6.2742)"/>
+					<param key="sticker_name" value="stk_fgbg_classic.tga"/>
+				</node>
+			</node>
+			<!-- Precision Foregrip -->
+			<node name="wpn_fps_ass_g3_fg_psg">
+				<node name="f585aab0887f1816">
+					<param key="uv_offset_rot" value="Vector3(-0.0598149, 0.911934, 0)"/>
+					<param key="uv_scale" value="Vector3(1.42824, 1.42824, 1)"/>
+					<param key="sticker_name" value="stk_fgbg_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Clarion ============================== -->
+			<node name="wpn_fps_ass_famas_body_standard">
+				<node name="ce53cb869d779872">
+					<param key="uv_offset_rot" value="Vector3(0.0634394, 0.648362, 0)"/>
+					<param key="uv_scale" value="Vector3(3.34723, 3.34723, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Lion's Roar ============================== -->
+			<node name="wpn_fps_ass_vhs_body">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_offset_rot" value="Vector3(0.0634394, 1.12535, 6.27619)"/>
+					<param key="uv_scale" value="Vector3(8.35307, 8.35307, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Queen's Wrath ============================== -->
+			<node name="wpn_fps_ass_l85a2_body_standard">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_scale" value="Vector3(6.58911, 6.58911, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.349631, 0.891394, 0)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_ass_l85a2_fg_medium">
+				<node name="f8285577d054fec3">
+					<param key="uv_offset_rot" value="Vector3(-0.124815, 0.788457, 0)"/>
+					<param key="uv_scale" value="Vector3(8.21005, 7.20888, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== AK5 ============================== -->
+			<node name="wpn_fps_ass_ak5_body_ak5">
+				<node name="073d557d707d398c">
+					<param key="uv_offset_rot" value="Vector3(-0.0631165, 0.952632, 0)"/>
+					<param key="uv_scale" value="Vector3(2.58443, 2.58443, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Eagle Heavy ============================== -->
+			<node name="wpn_fps_ass_scar_body_standard">
+				<node name="ce53cb869d779872">
+					<param key="uv_offset_rot" value="Vector3(-0.27999, 0.886394, 0)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_scale" value="Vector3(4.72979, 4.72979, 1)"/>
+				</node>
+				<node name="11f00d59e01de219">
+					<param key="uv_scale" value="Vector3(8.63912, 8.63912, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0741165, 0.595123, 0)"/>
+				</node>
+			</node>
+			<!-- ============================== Falcon ============================== -->
+			<node name="wpn_fps_ass_fal_body_standard">
+				<node name="24f8a31eed44307b">
+					<param key="uv_offset_rot" value="Vector3(0.168376, 0.942093, 0)"/>
+					<param key="uv_scale" value="Vector3(4.72979, 4.72979, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Gecko ============================== -->
+			<node name="wpn_fps_ass_galil_body_standard">
+				<node name="f7110444462d5417">
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+					<param key="uv_scale" value="Vector3(2.91815, 2.91815, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.0558997, 0.813156, 0)"/>
+				</node>
+			</node>
+			<!-- ============================== KETCHNOV Byk-1 Assault Rifle ============================== -->
+			<node name="wpn_fps_ass_groza_gl_gp25">
+				<node name="37ad219aad43aefd">
+					<param key="uv_scale" value="Vector3(4.80547, 4.80547, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.267911, 0.924013, 0)"/>
+				</node>
+			</node>
+			
+			
+			
+			<!-- ============================== Brenner-21 ============================== -->
+			<node name="wpn_fps_lmg_hk21_body_upper">
+				<node name="148c440e0f96cac6">
+					<param key="uv_offset_rot" value="Vector3(0.187456, 0.920013, 0.016)"/>
+					<param key="uv_scale" value="Vector3(3.34723, 3.34723, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Buzzsaw 42 ============================== -->
+			<node name="wpn_fps_lmg_mg42_reciever">
+				<node name="35832e69e766a99f">
+					<param key="uv_offset_rot" value="Vector3(0.287393, 0.881854, 0.022)"/>
+					<param key="uv_scale" value="Vector3(5.39724, 5.39724, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== KSP 58 ============================== -->
+			<node name="wpn_fps_lmg_par_m_standard">
+				<node name="5a59c88e60c2af0b">
+					<param key="uv_offset_rot" value="Vector3(-0.0173385, 0.7036, 0)"/>
+					<param key="uv_scale" value="Vector3(10.6415, 10.6415, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_lmg_par_body_standard">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_scale" value="Vector3(15.838, 12.1194, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0831959, 0.970172, 0)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_lmg_svinet_b_standard_addon">
+				<node name="b95b721a17257834">
+					<param key="uv_offset_rot" value="Vector3(0.0257409, 0.876315, 0)"/>
+					<param key="uv_scale" value="Vector3(1.29722, 1.53559, 1)"/>
+					<param key="sticker_name" value="stk_fgbg_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== RPK ============================== -->
+			<node name="wpn_lmg_rpk_m_drum">
+				<node name="4ac6f79f62bcd677">
+					<param key="uv_offset_rot" value="Vector3(-0.0224179, 1.00333, 4.72774)"/>
+					<param key="uv_scale" value="Vector3(1.24954, 1.24954, 0.999)"/>
+					<param key="sticker_name" value="stk_fgbg_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== M60 ============================== -->
+			<node name="wpn_fps_lmg_m60_body_standard">
+				<node name="11f00d59e01de219">
+					<param key="uv_offset_rot" value="Vector3(-0.118894, 0.894394, 0)"/>
+					<param key="uv_scale" value="Vector3(4.87282, 4.87282, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_lmg_m60_m_standard">
+				<node name="5a59c88e60c2af0b">
+					<param key="uv_scale" value="Vector3(10.4031, 10.4031, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0354974, 0.71914, 0)"/>
+				</node>
+			</node>
+			<!-- ============================== KSP ============================== -->
+			<node name="wpn_fps_lmg_m249_body_standard">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_offset_rot" value="Vector3(-0.318768, 0.911474, 0)"/>
+					<param key="uv_scale" value="Vector3(5.87399, 5.87399, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_lmg_m249_m_standard">
+				<node name="5a59c88e60c2af0b">
+					<param key="uv_scale" value="Vector3(6.35073, 6.35073, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.202212, 0.992251, 0.843653)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+				</node>
+			</node>
+			
+			
+			
+			<!-- ============================== Vulcan Minigun ============================== -->
+			<!-- Default Lower Receiver -->
+			<node name="wpn_fps_lmg_m134_body">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_offset_rot" value="Vector3(0.120678, 0.590123, 0)"/>
+					<param key="uv_scale" value="Vector3(7.11353, 7.11353, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- Default Body Kit -->
+			<node name="wpn_fps_lmg_m134_body_upper">
+				<node name="cd61c33f1fbbfd39">
+					<param key="sticker_name" value="stk_minigun_classic.tga"/>
+					<param key="uv_scale" value="Vector3(5.63561, 5.63561, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.38025, 1.04157, 4.72974)"/>
+				</node>
+			</node>
+			<!-- I'll Take Half That Kit -->
+			<node name="wpn_fps_lmg_m134_body_upper_light">
+				<node name="1a93be2e8178f2de">
+					<param key="sticker_name" value="stk_minigun_classic.tga"/>
+					<param key="uv_scale" value="Vector3(5.63561, 5.63561, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.38025, 1.04157, 4.72974)"/>
+				</node>
+			</node>
+			<!-- The Gimp Body Kit -->
+			<node name="wpn_fps_lmg_m134_body_upper_spikey_addon">
+				<node name="cd61c33f1fbbfd39">
+					<param key="sticker_name" value="stk_gimp_classic.tga"/>
+					<param key="uv_scale" value="Vector3(5.63561, 5.63561, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.38025, 1.04157, 4.72974)"/>
+				</node>
+			</node>
+			<!-- ============================== XL 5.56 Microgun ============================== -->
+			<node name="wpn_fps_lmg_shuno_body_standard">
+				<node name="8c5f71ae1530d4a7">
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+					<param key="uv_scale" value="Vector3(6.01701, 6.01701, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.249831, 0.640822, 0)"/>
+				</node>
+			</node>
+			
+			
+			
+			<!-- ============================== Flamethrower Mk.1 ============================== -->
+			<!-- Default Receiver -->
+			<node name="wpn_fps_fla_mk2_body">
+				<node name="cd462e276c83a452">
+					<param key="uv_scale" value="Vector3(13.6926, 13.6926, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.0820585, 0.948553, 0)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- Dragon Lord Receiver (Add-On) -->
+			<node name="wpn_fps_fla_mk2_body_fierybeast_addon">
+				<node name="cd462e276c83a452">
+					<param key="uv_scale" value="Vector3(13.6926, 13.6926, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.0820585, 0.948553, 0)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- Default Fuel Tank -->
+			<node name="wpn_fps_fla_mk2_mag">
+				<node name="a32a45c9126c56c8">
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.0157409, 0.842696, 0)"/>
+					<param key="uv_scale" value="Vector3(5.11119, 5.49259, 1)"/>
+				</node>
+			</node>
+			<!-- Rare -->
+			<node name="wpn_fps_fla_mk2_mag_rare">
+				<node name="a32a45c9126c56c8">
+					<param key="uv_offset_rot" value="Vector3(0.269313, 0.7096, 1.69779)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_scale" value="Vector3(5.01584, 5.01584, 1)"/>
+				</node>
+			</node>
+			<!-- Well Done -->
+			<node name="wpn_fps_fla_mk2_mag_welldone">
+				<node name="a32a45c9126c56c8">
+					<param key="uv_offset_rot" value="Vector3(0.269313, 0.7096, 1.69779)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_scale" value="Vector3(5.01584, 5.01584, 1)"/>
+				</node>
+			</node>
+			<!-- ============================== MK-17 Flamethrower ============================== -->
+			<node name="wpn_fps_fla_system_body_upper">
+				<node name="ce53cb869d779872">
+					<param key="uv_scale" value="Vector3(4.68212, 4.68212, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.0198203, 0.958632, 0)"/>
+				</node>
+			</node>
+			<node name="wpn_fps_fla_system_m_standard">
+				<node name="5a59c88e60c2af0b">
+					<param key="uv_scale" value="Vector3(2.29838, 2.29838, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0488782, 0.987251, 6.27319)"/>
+					<param key="sticker_name" value="stk_fgbg_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_fla_system_m_high">
+				<node name="6caaae52197a45f4">
+					<param key="uv_scale" value="Vector3(2.29838, 2.29838, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0488782, 0.987251, 6.27319)"/>
+					<param key="sticker_name" value="stk_fgbg_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_fla_system_m_low">
+				<node name="86ffd56a63364051">
+					<param key="uv_scale" value="Vector3(2.29838, 2.29838, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0488782, 0.987251, 6.27319)"/>
+					<param key="sticker_name" value="stk_fgbg_classic.tga"/>
+				</node>
+			</node>
+			
+			
+			
+			<!-- ============================== Compact-5 ============================== -->
+			<node name="wpn_fps_smg_mp5_body_mp5">
+				<node name="53c1184d7b1b48a5">
+					<param key="uv_offset_rot" value="Vector3(0.141757, 0.923473, 0)"/>
+					<param key="uv_scale" value="Vector3(4.30072, 4.30072, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Heather ============================== -->
+			<node name="wpn_fps_smg_sr2_fg_standard">
+				<node name="f8285577d054fec3">
+					<param key="uv_offset_rot" value="Vector3(0.03836, 0.934553, 0)"/>
+					<param key="uv_scale" value="Vector3(9.68796, 9.68796, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_smg_sr2_body_lower">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_scale" value="Vector3(5.73096, 5.73096, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.321012, 0.950632, 0)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Jackal ============================== -->
+			<node name="wpn_fps_smg_schakal_body_upper">
+				<node name="321d2ec91462d6ef">
+					<param key="uv_offset_rot" value="Vector3(-0.115815, 0.958712, 0.01)"/>
+					<param key="uv_scale" value="Vector3(7.39958, 7.39958, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Jacket's Piece ============================== -->
+			<node name="wpn_fps_smg_cobray_body_lower">
+				<!-- Default Lower Receiver -->
+				<node name="82b78dd219626aad">
+					<param key="uv_scale" value="Vector3(7.30423, 7.30423, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.237752, 1.13889, 0)"/>
+				</node>
+				<!-- 80's Calling Lower Receiver -->
+				<node name="a0edfee7001ed941">
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+					<param key="uv_scale" value="Vector3(2.67978, 2.67978, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.136138, 1.09373, 0)"/>
+				</node>
+			</node>
+			<!-- ============================== Kobus 90 ============================== -->
+			<node name="wpn_fps_smg_p90_body_p90">
+				<node name="86936584e6c0df39">
+					<param key="uv_scale" value="Vector3(5.11119, 5.11119, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.108815, 0.900934, 0)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_smg_p90_body_boxy">
+				<node name="a5837ebaf5525c4b">
+					<param key="uv_offset_rot" value="Vector3(0.0865189, 0.933553, 0)"/>
+					<param key="uv_scale" value="Vector3(5.11119, 5.11119, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Kross Vertex ============================== -->
+			<node name="wpn_fps_smg_polymer_body_standard">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_offset_rot" value="Vector3(0.0815189, 0.812616, 1.69879)"/>
+					<param key="uv_scale" value="Vector3(7.25655, 7.25655, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Mark 10 ============================== -->
+			<node name="wpn_fps_smg_mac10_body_mac10">
+				<node name="6078ccc465633d99">
+					<param key="uv_scale" value="Vector3(3.3949, 3.3949, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.00133852, 0.826616, 0)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_smg_mac10_body_modern">
+				<node name="d3244357f0c1892a">
+					<param key="uv_offset_rot" value="Vector3(-0.138894, 1.07465, 0)"/>
+					<param key="uv_scale" value="Vector3(11.5473, 11.5473, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Micro Uzi ============================== -->
+			<node name="wpn_fps_smg_baka_body_standard">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_offset_rot" value="Vector3(-0.252831, 0.873775, 0)"/>
+					<param key="uv_scale" value="Vector3(8.16237, 8.16237, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Uzi ============================== -->
+			<node name="wpn_fps_smg_uzi_body_standard">
+				<node name="e8131b842e61a89f">
+					<param key="uv_scale" value="Vector3(7.7333, 7.7333, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.05336, 0.806537, 0)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_smg_uzi_fg_standard">
+				<node name="6d2a718408593378">
+					<param key="uv_offset_rot" value="Vector3(0.37425, 1.16505, 0)"/>
+					<param key="uv_scale" value="Vector3(5.77864, 5.77864, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== CMP ============================== -->
+			<node name="wpn_fps_smg_mp9_body_mp9">
+				<node name="32e8671510ee80a4">
+					<param key="uv_offset_rot" value="Vector3(-0.00841793, 0.925013, 0)"/>
+					<param key="uv_scale" value="Vector3(3.2042, 3.2042, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== CR 805B ============================== -->
+			<node name="wpn_fps_smg_hajk_body_standard">
+				<node name="ce53cb869d779872">
+					<param key="uv_offset_rot" value="Vector3(-0.221672, 0.926013, 0)"/>
+					<param key="uv_scale" value="Vector3(4.58677, 4.58677, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== SpecOps ============================== -->
+			<node name="wpn_fps_smg_mp7_body_standard">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_offset_rot" value="Vector3(-0.0606562, 0.909474, 0)"/>
+					<param key="uv_scale" value="Vector3(3.34723, 3.34723, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Tatonka ============================== -->
+			<node name="wpn_fps_smg_coal_body_standard">
+				<node name="00976079b49dc59b">
+					<param key="uv_offset_rot" value="Vector3(0.0599791, 1.16505, 3.1415)"/>
+					<param key="uv_scale" value="Vector3(2.25071, 2.25071, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_smg_coal_o_scopemount_standard">
+				<node name="9e0fe758b6d0c9b9">
+					<param key="uv_offset_rot" value="Vector3(-0.0862753, 0.926553, 0)"/>
+					<param key="uv_scale" value="Vector3(2.20303, 3.3949, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Blaster 9mm ============================== -->
+			<node name="wpn_fps_smg_tec9_body_standard">
+				<node name="f7110444462d5417">
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_scale" value="Vector3(8.59144, 8.59144, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.211614, 0.826076, 6.2682)"/>
+				</node>
+			</node>
+			<!-- ============================== Chicago Typewriter ============================== -->
+			<node name="wpn_fps_smg_thompson_body">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_offset_rot" value="Vector3(0.009, 0.900934, 6.26919)"/>
+					<param key="uv_scale" value="Vector3(2.53676, 2.53676, 0.999)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_smg_thompson_drummag">
+				<node name="5a59c88e60c2af0b">
+					<param key="uv_scale" value="Vector3(3.7763, 3.7763, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0901959, 1.06057, 1.5708)"/>
+					<param key="sticker_name" value="stk_fgbg_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Cobra ============================== -->
+			<node name="wpn_fps_smg_scorpion_body_standard">
+				<node name="ce53cb869d779872">
+					<param key="uv_scale" value="Vector3(10.5461, 10.5461, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.136894, 0.930013, 0)"/>
+				</node>
+				<node name="11f00d59e01de219">
+					<param key="uv_offset_rot" value="Vector3(0.282313, 0.743299, 6.25322)"/>
+					<param key="uv_scale" value="Vector3(6.77981, 6.77981, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== MP40 ============================== -->
+			<node name="wpn_fps_smg_erma_body_standard">
+				<node name="24f8a31eed44307b">
+					<param key="uv_offset_rot" value="Vector3(0.442028, 0.851156, 4.71239)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+					<param key="uv_scale" value="Vector3(2.25071, 2.25071, 1)"/>
+				</node>
+			</node>
+			<!-- ============================== Patchett L2A1 ============================== -->
+			<!-- Standard Barrel -->
+			<node name="wpn_fps_smg_sterling_b_standard">
+				<node name="162a65560e5793ce">
+					<param key="uv_scale" value="Vector3(3.87165, 3.87165, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.27699, 1.05003, 3.14159)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- Long Barrel -->
+			<node name="wpn_fps_smg_sterling_b_long">
+				<node name="395fdcaff319a33c">
+					<param key="uv_scale" value="Vector3(5.06352, 5.06352, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.27153, 0.966172, 0)"/>
+				</node>
+			</node>
+			<!-- Short Barrel -->
+			<node name="wpn_fps_smg_sterling_b_short">
+				<node name="c82b5377fb9e4961">
+					<param key="uv_scale" value="Vector3(3.49025, 3.49025, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0641165, 0.950632, 0)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- Heatsinked Suppressed Barrel -->
+			<node name="wpn_fps_smg_sterling_b_e11">
+				<node name="162a65560e5793ce">
+					<param key="uv_offset_rot" value="Vector3(-0.179593, 0.951632, 0)"/>
+					<param key="uv_scale" value="Vector3(3.72862, 3.44258, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- Suppressed Barrel -->
+			<node name="wpn_fps_smg_sterling_b_suppressed">
+				<node name="cf30bff0435b7ba8">
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+					<param key="uv_scale" value="Vector3(4.82514, 4.82514, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.254371, 0.964172, 0)"/>
+				</node>
+			</node>
+			<!-- ============================== Signature ============================== -->
+			<!-- Default Foregrip -->
+			<node name="wpn_fps_smg_shepheard_body">
+				<node name="1b35080677e98ac2">
+					<param key="uv_offset_rot" value="Vector3(0.121138, 0.897934, 4.71239)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_scale" value="Vector3(3.68095, 6.54143, 1)"/>
+				</node>
+				<node name="13de1d1cde5f3467">
+					<param key="uv_scale" value="Vector3(6.01701, 6.01701, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.111138, 1.28298, 3.14159)"/>
+				</node>
+			</node>
+			<!-- Short Foregrip -->
+			<node name="wpn_fps_smg_shepheard_body_short">
+				<node name="1b35080677e98ac2">
+					<param key="uv_offset_rot" value="Vector3(0.121138, 0.897934, 4.71239)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_scale" value="Vector3(3.68095, 6.54143, 1)"/>
+				</node>
+				<node name="13de1d1cde5f3467">
+					<param key="uv_scale" value="Vector3(6.01701, 6.01701, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.111138, 1.28298, 3.14159)"/>
+				</node>
+			</node>
+			<!-- ============================== Swedish K ============================== -->
+			<!-- Default Receiver -->
+			<node name="wpn_fps_smg_m45_body_standard">
+				<node name="6be14360686c5f05">
+					<param key="uv_offset_rot" value="Vector3(0, 0.931553, 0)"/>
+					<param key="uv_scale" value="Vector3(2.48908, 2.48908, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- Swedish Body -->
+			<node name="wpn_fps_smg_m45_body_green">
+				<node name="6be14360686c5f05">
+					<param key="uv_scale" value="Vector3(2.48908, 2.48908, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0, 0.931553, 0)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Miyaka 10 Special ============================== -->
+			<node name="wpn_fps_smg_pm9_body_standard">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_scale" value="Vector3(8.68679, 8.68679, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.356228, 0.884854, 0)"/>
+				</node>
+			</node>
+			<node name="wpn_fps_smg_pm9_g_standard">
+				<node name="610a834f63be4a13">
+					<param key="uv_scale" value="Vector3(6.54143, 6.54143, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.0980586, 1.37992, 3.13635)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_smg_pm9_g_wood">
+				<node name="610a834f63be4a13">
+					<param key="uv_scale" value="Vector3(6.54143, 6.54143, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.0980586, 1.37992, 3.13635)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== AK Gen 21 Tactical ============================== -->
+			<node name="wpn_fps_smg_vityaz_body_standard">
+				<node name="11f00d59e01de219">
+					<param key="uv_offset_rot" value="Vector3(-0.756975, 0.983791, 6.25222)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+					<param key="uv_scale" value="Vector3(2.77513, 3.06118, 1)"/>
+				</node>
+			</node>
+			
+			
+			
+			<!-- ============================== GLOCK WEAPON FAMILY ============================== -->
+			<!-- ============================== Chimano 88 ============================== -->
+			<node name="wpn_fps_pis_g17_b_standard">
+				<node name="836a6a63a771b360">
+					<param key="uv_offset_rot" value="Vector3(-0.0414974, 0.988791, 0)"/>
+					<param key="uv_scale" value="Vector3(2.29838, 1.29722, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Chimano Custom ============================== -->
+			<node name="wpn_fps_pis_g22c_b_standard">
+				<node name="e9a4a898b07986a8">
+					<param key="uv_scale" value="Vector3(2.29838, 1.29722, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0414974, 0.978791, 0)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_pis_g22c_b_long">
+				<node name="ca332550a5bc5d18">
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_scale" value="Vector3(2.29838, 1.29722, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.00933852, 1.00787, 0)"/>
+				</node>
+			</node>
+			<!-- ============================== STRYK 18c ============================== -->
+			<node name="wpn_fps_pis_g18c_b_standard">
+				<node name="cc77d906e6b36427">
+					<param key="uv_scale" value="Vector3(5.01584, 5.01584, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0891959, 0.883854, 0)"/>
+				</node>
+			</node>
+			<node name="wpn_fps_pis_g18c_body_frame">
+				<node name="b2d80ae4b017b88d">
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_scale" value="Vector3(5.06352, 5.06352, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.00633852, 0.960632, 0)"/>
+				</node>
+				<node name="5c5bcff98cb309e8">
+				</node>
+			</node>
+			<!-- ============================== Chimano Compact ============================== -->
+			<node name="wpn_fps_pis_g26_b_standard">
+				<node name="7f16e8704d27e9d4">
+					<param key="uv_scale" value="Vector3(2.67978, 2.67978, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0796562, 0.893394, 6.27819)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_pis_g26_b_custom">
+				<node name="7f16e8704d27e9d4">
+					<param key="uv_scale" value="Vector3(2.67978, 2.67978, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0796562, 0.893394, 6.27819)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			
+			<!-- ============================== Contractor ============================== -->
+			<node name="wpn_fps_pis_packrat_sl_standard">
+				<node name="ce1c9153c9e3f737">
+					<param key="uv_offset_rot" value="Vector3(0.318472, 1.2072, 0)"/>
+					<param key="uv_scale" value="Vector3(2.96583, 2.96583, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Baby Deagle ============================== -->
+			<node name="wpn_fps_pis_sparrow_sl_rpl">
+				<!-- Default Slide -->
+				<node name="e8cbfb3930e59ddb">
+					<param key="uv_scale" value="Vector3(3.2042, 3.2042, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0319576, 0.941093, 0)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+				<!-- Spike Kit -->
+				<node name="7f16e8704d27e9d4">
+					<param key="uv_offset_rot" value="Vector3(-0.0319576, 0.946093, 0)"/>
+					<param key="uv_scale" value="Vector3(3.2042, 3.2042, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Bernetti 9 ============================== -->
+			<!-- Default Slide -->
+			<node name="wpn_fps_pis_beretta_sl_std">
+				<node name="275c2843b8644298">
+					<param key="uv_scale" value="Vector3(3.29955, 3.29955, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.0634394, 0.878315, 0)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- The Elite Slide -->
+			<node name="wpn_fps_pis_beretta_sl_brigadier">
+				<node name="209b5e132df685a4">
+					<param key="uv_offset_rot" value="Vector3(0.0634394, 0.857315, 0)"/>
+					<param key="uv_scale" value="Vector3(3.29955, 3.29955, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Bernetti Auto ============================== -->
+			<node name="wpn_fps_pis_beer_sl_std">
+				<node name="7f16e8704d27e9d4">
+					<param key="uv_offset_rot" value="Vector3(-0.0239576, 0.893394, 6.27819)"/>
+					<param key="uv_scale" value="Vector3(5.34956, 5.34956, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Czech 92 ============================== -->
+			<node name="wpn_fps_pis_czech_sl_standard">
+				<node name="7f16e8704d27e9d4">
+					<param key="uv_offset_rot" value="Vector3(-0.0128782, 0.961092, 0)"/>
+					<param key="uv_scale" value="Vector3(5.49259, 5.49259, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Igor Automatik ============================== -->
+			<node name="wpn_fps_pis_stech_sl_standard">
+				<node name="7f16e8704d27e9d4">
+					<param key="uv_offset_rot" value="Vector3(0.121678, 0.859775, 0)"/>
+					<param key="uv_scale" value="Vector3(5.82631, 3.06118, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Broomstick ============================== -->
+			<node name="wpn_fps_pis_c96_body_standard">
+				<node name="f7110444462d5417">
+					<param key="uv_offset_rot" value="Vector3(0.04636, 0.867315, 0)"/>
+					<param key="uv_scale" value="Vector3(5.96934, 5.96934, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== White Streak ============================== -->
+			<node name="wpn_fps_pis_pl14_sl_standard">
+				<node name="7f16e8704d27e9d4">
+					<param key="uv_offset_rot" value="Vector3(0.215154, 0.924553, 0)"/>
+					<param key="uv_scale" value="Vector3(3.3949, 3.3949, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== M13 9mm ============================== -->
+			<node name="wpn_fps_pis_legacy_sl_standard">
+				<node name="3e87f0c97039b03c">
+					<param key="uv_offset_rot" value="Vector3(0.296932, 0.869855, 0)"/>
+					<param key="uv_scale" value="Vector3(2.72746, 1.44024, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== HOLT 9mm ============================== -->
+			<node name="wpn_fps_pis_holt_body_upper">
+				<node name="93d0add46bd3da91">
+					<param key="uv_offset_rot" value="Vector3(-0.101196, 0.909013, 0)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_scale" value="Vector3(3.91932, 4.11002, 1)"/>
+				</node>
+			</node>
+			<!-- ============================== 5/7 AP ============================== -->
+			<node name="wpn_fps_pis_lemming_sl_standard">
+				<node name="a278ebdff23743bc">
+					<param key="uv_offset_rot" value="Vector3(-0.0319576, 0.931553, 0)"/>
+					<param key="uv_scale" value="Vector3(3.0135, 3.0135, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Gruber Kurz ============================== -->
+			<node name="wpn_fps_pis_ppk_b_standard">
+				<node name="7f16e8704d27e9d4">
+					<param key="uv_scale" value="Vector3(3.49025, 3.49025, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.0729792, 0.883854, 0)"/>
+				</node>
+			</node>
+			<node name="wpn_fps_pis_ppk_b_long">
+				<node name="a3d7e5bfcb314106">
+					<param key="uv_offset_rot" value="Vector3(0.0729792, 0.902934, 0)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_scale" value="Vector3(3.49025, 3.49025, 1)"/>
+				</node>
+			</node>
+			<!-- ============================== Deagle ============================== -->
+			<!-- Default Body -->
+			<node name="wpn_fps_pis_deagle_body_standard">
+				<node name="6de7f6ff921d8dad">
+					<param key="uv_scale" value="Vector3(4.58677, 4.58677, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.120678, 0.893394, 0)"/>
+				</node>
+			</node>
+			<!-- Midas Tocuh Barrel (Add-On) -->
+			<node name="wpn_fps_pis_deagle_b_legend_addon">
+				<node name="e3f09402bee595cc">
+					<param key="uv_scale" value="Vector3(7.97167, 7.97167, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.101598, 0.916473, 0)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+				</node>
+			</node>
+			<!-- Long Barrel -->
+			<node name="wpn_fps_pis_deagle_b_long">
+				<node name="d39ed1fb26707aa0">
+					<param key="uv_offset_rot" value="Vector3(-0.092815, 0.936093, 0)"/>
+					<param key="cubemap_pattern_control" value="Vector3(0, 0.003, 0)"/>
+					<param key="uv_scale" value="Vector3(2.15536, 2.15536, 1)"/>
+					<param key="sticker_name" value="stk_fgbg_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Crosskill ============================== -->
+			<!-- Default Slide -->
+			<node name="wpn_fps_pis_1911_b_standard">
+				<node name="836a6a63a771b360">
+					<param key="uv_scale" value="Vector3(3.91932, 3.91932, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.115815, 0.934013, 0)"/>
+				</node>
+			</node>
+			<!-- Vented Slide -->
+			<node name="wpn_fps_pis_1911_b_vented">
+				<node name="be8e2c221e35d4d6">
+					<param key="uv_scale" value="Vector3(4.77747, 4.77747, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.111815, 0.941013, 0)"/>
+				</node>
+			</node>
+			<!-- Long Vented Slide -->
+			<node name="wpn_fps_pis_1911_b_long">
+				<node name="9af123e6f19192af">
+					<param key="uv_scale" value="Vector3(4.72979, 4.72979, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.144434, 0.939013, 0)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- Santa's Slayers Laser (Add-On) -->
+			<node name="wpn_fps_pis_1911_fl_legendary_addon">
+				<node name="73237ec10ba53017">
+					<param key="uv_offset_rot" value="Vector3(0.0157409, 0.962712, 0)"/>
+					<param key="uv_scale" value="Vector3(20, 20, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Interceptor 45 ============================== -->
+			<!-- Default Slide -->
+			<node name="wpn_fps_pis_usp_b_tactical">
+				<node name="ad447e80192b8f84">
+					<param key="uv_offset_rot" value="Vector3(0.101598, 0.923013, 0.007)"/>
+					<param key="uv_scale" value="Vector3(4.44375, 4.44375, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- Expert Slide -->
+			<node name="wpn_fps_pis_usp_b_expert">
+				<node name="ba50acdc9e496558">
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_scale" value="Vector3(4.44375, 4.44375, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.0825189, 0.932013, 0)"/>
+				</node>
+			</node>
+			<!-- Match Slide -->
+			<node name="wpn_fps_pis_usp_b_match">
+				<node name="caa3a84ef5b7e21c">
+					<param key="uv_scale" value="Vector3(4.44375, 4.44375, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.258234, 0.925013, 0.007)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+				<node name="9098f2a74f94dc04">
+					<param key="uv_scale" value="Vector3(6.63678, 6.63678, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.149217, 0.827076, 0)"/>
+				</node>
+			</node>
+			<!-- ============================== LEO ============================== -->
+			<!-- Default Slide -->
+			<node name="wpn_fps_pis_hs2000_sl_standard">
+				<node name="ce1c9153c9e3f737">
+					<param key="uv_scale" value="Vector3(3.29955, 3.29955, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.0252806, 0.935093, 6.27719)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- Custom Slide -->
+			<node name="wpn_fps_pis_hs2000_sl_custom">
+				<node name="7ec06e4d7d38fd40">
+					<param key="uv_scale" value="Vector3(3.29955, 3.29955, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.0252806, 0.935093, 6.27719)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- Long Slide -->
+			<node name="wpn_fps_pis_hs2000_sl_long">
+				<node name="31a14332e0bbc89d">
+					<param key="uv_offset_rot" value="Vector3(0.0412806, 0.938093, 0)"/>
+					<param key="uv_scale" value="Vector3(3.82397, 3.82397, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Signature .40 ============================== -->
+			<!-- Default Slide -->
+			<node name="wpn_fps_pis_p226_b_standard">
+				<node name="871a8541bd09910f">
+					<param key="uv_offset_rot" value="Vector3(0.149297, 0.942553, 6.27219)"/>
+					<param key="uv_scale" value="Vector3(4.20537, 4.20537, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- Two Tone Slide -->
+			<node name="wpn_fps_pis_p226_b_equinox">
+				<node name="9bdd28fdacc237b8">
+					<param key="uv_offset_rot" value="Vector3(0.149297, 0.942553, 6.27219)"/>
+					<param key="uv_scale" value="Vector3(4.20537, 4.20537, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- Long Slide -->
+			<node name="wpn_fps_pis_p226_b_long">
+				<node name="a3d7e5bfcb314106">
+					<param key="uv_offset_rot" value="Vector3(0.0750585, 0.955172, 6.27219)"/>
+					<param key="uv_scale" value="Vector3(5.54026, 5.54026, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Crosskill Guard ============================== -->
+			<!-- Default Slide -->
+			<node name="wpn_fps_pis_shrew_sl_standard">
+				<node name="80c95e7668f2b23c">
+					<param key="uv_scale" value="Vector3(2.67978, 1.44024, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.00520119, 1.37038, 3.14159)"/>
+				</node>
+			</node>
+			<!-- Milled Slide -->
+			<node name="wpn_fps_pis_shrew_sl_milled">
+				<node name="4f970459e9a65797">
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_scale" value="Vector3(2.96583, 2.96583, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.242292, 0.905934, 4.71239)"/>
+				</node>
+			</node>
+			<!-- ============================== Parabellum ============================== -->
+			<!-- Sticker appears on trigger guard -->
+			<node name="wpn_fps_pis_breech_body">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_offset_rot" value="Vector3(0.286393, 1.01087, 0)"/>
+					<param key="uv_scale" value="Vector3(9.30656, 9.30656, 1)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Peacemaker .45 ============================== -->
+			<!-- Requires fix to display sticker scaling properly -->
+			<node name="wpn_fps_pis_peacemaker_b_standard">
+				<node name="0c2a90bd61b7c6f9">
+					<param key="uv_scale" value="Vector3(2.20303, 2.20303, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.299069, 0.931553, 0)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_pis_peacemaker_b_long">
+				<node name="0c2a90bd61b7c6f9">
+					<param key="uv_offset_rot" value="Vector3(-0.386927, 1.06511, 0)"/>
+					<param key="uv_scale" value="Vector3(3.91932, 3.91932, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_pis_peacemaker_b_short">
+				<node name="0c2a90bd61b7c6f9">
+					<param key="uv_scale" value="Vector3(1.63094, 1.63094, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.222752, 0.902934, 0)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Bronco .44 ============================== -->
+			<!-- Default Barrel -->
+			<node name="wpn_fps_pis_rage_b_standard">
+				<node name="134f4665d179ee45">
+					<param key="uv_scale" value="Vector3(2.25071, 2.25071, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.192212, 0.893394, 0)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- Aggressor Barrel -->
+			<node name="wpn_fps_pis_rage_b_comp1">
+				<node name="06460588f55771f7">
+					<param key="uv_offset_rot" value="Vector3(-0.28907, 0.893394, 0)"/>
+					<param key="uv_scale" value="Vector3(2.25071, 2.25071, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- Pocket Surprise Barrel -->
+			<node name="wpn_fps_pis_rage_b_short">
+				<node name="efa4eca6bb888bf0">
+					<param key="uv_offset_rot" value="Vector3(-0.0574973, 0.817537, 6.25019)"/>
+					<param key="uv_scale" value="Vector3(2.25071, 2.25071, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- Ventilated Barrel -->
+			<node name="wpn_fps_pis_rage_b_comp2">
+				<node name="d6a7b9063a53935e">
+					<param key="uv_scale" value="Vector3(2.25071, 2.25071, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.28399, 0.885394, 0)"/>
+				</node>
+			</node>
+			<!-- Overcompensating Barrel -->
+			<node name="wpn_fps_pis_rage_b_long">
+				<node name="c1ee247033b6692a">
+					<param key="uv_offset_rot" value="Vector3(-0.29253, 0.913394, 0.01)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_scale" value="Vector3(2.29838, 2.29838, 1)"/>
+				</node>
+			</node>
+			<!-- ============================== Castigo .44 ============================== -->
+			<node name="wpn_fps_pis_chinchilla_b_standard">
+				<node name="8ff5f4d2f66c5c96">
+					<param key="uv_scale" value="Vector3(1.77396, 1.77396, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.143297, 0.773378, 1.5708)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_pis_chinchilla_b_satan">
+				<node name="1b1368de70bd0090">
+					<param key="uv_offset_rot" value="Vector3(-0.00333852, 0.846696, 0)"/>
+					<param key="uv_scale" value="Vector3(2.44141, 2.44141, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Frenchman Model 87 ============================== -->
+			<node name="wpn_fps_pis_model3_body_standard">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_scale" value="Vector3(10.8798, 10.8798, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.0831959, 0.882854, 0)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_pis_model3_b_standard">
+				<node name="dea8ceff684d583a">
+					<param key="uv_scale" value="Vector3(4.68212, 4.68212, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.139757, 1.00087, 0)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_pis_model3_b_long">
+				<node name="8b2c944db5748da8">
+					<param key="uv_scale" value="Vector3(5.01584, 5.01584, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.198376, 0.784378, 6.24424)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<node name="wpn_fps_pis_model3_b_short">
+				<node name="53d3dbc03e07320e">
+					<param key="uv_offset_rot" value="Vector3(0.168376, 0.99687, 0)"/>
+					<param key="uv_scale" value="Vector3(4.68212, 4.68212, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Matever .357 ============================== -->
+			<!-- Default Barrel -->
+			<node name="wpn_fps_pis_2006m_b_standard">
+				<node name="0c2a90bd61b7c6f9">
+					<param key="uv_scale" value="Vector3(1.53559, 1.53559, 1)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.0288998, 0.858235, 0)"/>
+				</node>
+			</node>
+			<!-- Pesante Barrel -->
+			<node name="wpn_fps_pis_2006m_b_long">
+				<node name="395fdcaff319a33c">
+					<param key="uv_scale" value="Vector3(2.72746, 2.72746, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(-0.110815, 0.889394, 0)"/>
+				</node>
+			</node>
+			<!-- Medio Barrel -->
+			<node name="wpn_fps_pis_2006m_b_medium">
+				<node name="6914baf212c97666">
+					<param key="uv_offset_rot" value="Vector3(0.0348203, 0.843156, 0.006)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_scale" value="Vector3(2.06001, 2.06001, 1)"/>
+				</node>
+			</node>
+			<!-- Piccolo Barrel -->
+			<node name="wpn_fps_pis_2006m_b_short">
+				<node name="c82b5377fb9e4961">
+					<param key="uv_scale" value="Vector3(3.72862, 3.72862, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+					<param key="uv_offset_rot" value="Vector3(0.111598, 0.853695, 0)"/>
+				</node>
+			</node>
+			<!-- ============================== Crosskill Chunky Compact ============================== -->
+			<!-- Default Slide -->
+			<node name="wpn_fps_pis_m1911_sl_standard">
+				<node name="7f16e8704d27e9d4">
+					<param key="uv_scale" value="Vector3(3.49025, 2.67978, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.006, 0.905474, 0)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- Chunky Hunter Barrel -->
+			<node name="wpn_fps_pis_m1911_sl_hardballer">
+				<node name="bbd89bf3587aece1">
+					<param key="uv_offset_rot" value="Vector3(-0.0414974, 0.951632, 0)"/>
+					<param key="uv_scale" value="Vector3(3.967, 4.30072, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- Crosskill Platinum Bull Slide -->
+			<node name="wpn_fps_pis_m1911_sl_match">
+				<node name="caa3a84ef5b7e21c">
+					<param key="uv_offset_rot" value="Vector3(0.0699792, 0.895474, 0)"/>
+					<param key="uv_scale" value="Vector3(3.49025, 2.67978, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			
+			
+			
+			<!-- ============================== Saw ============================== -->
+			<!-- Requires fix to allow blade to accept stickers/patterns -->
+			<!-- Default Blade -->
+			<node name="wpn_fps_saw_m_blade">
+				<node name="2da7dde1e6ef3472">
+					<param key="uv_scale" value="Vector3(2.12768, 2.12768, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.213212, 0.971252, 0)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+				</node>
+			</node>
+			<!-- Durable Blade -->
+			<node name="wpn_fps_saw_m_blade_durable">
+				<node name="3f87b7e254fe27f4">
+					<param key="uv_scale" value="Vector3(2.12768, 2.12768, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.213212, 0.971252, 0)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+				</node>
+			</node>
+			<!-- Sharp Blade -->
+			<node name="wpn_fps_saw_m_blade_sharp">
+				<node name="9b4cc732c502bd54">
+					<param key="uv_scale" value="Vector3(2.12768, 2.12768, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.213212, 0.971252, 0)"/>
+					<param key="sticker_name" value="stk_snake_classic.tga"/>
+				</node>
+			</node>
+			<!-- Default Receiver -->
+			<node name="wpn_fps_saw_body_standard">
+				<node name="e7d2880bbc5144b3">
+					<param key="uv_scale" value="Vector3(8.73447, 8.73447, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.117815, 0.999331, 0)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- Silent Motor -->
+			<node name="wpn_fps_saw_body_silent">
+				<node name="3292716fa181e5d4">
+					<param key="uv_scale" value="Vector3(8.73447, 8.73447, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(-0.117815, 0.999331, 0)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- Fast Motor -->
+			<node name="wpn_fps_saw_body_speed">
+				<node name="e7d2880bbc5144b3">
+					<param key="uv_offset_rot" value="Vector3(-0.141894, 0.999331, 0)"/>
+					<param key="uv_scale" value="Vector3(10.4031, 10.4031, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			
+			
+			
+			<!-- ============================== Plainsrider Bow ============================== -->
+			<node name="wpn_fps_bow_plainsrider_body_standard">
+				<node name="8f88026cbe4b9ddc">
+					<param key="uv_offset_rot" value="Vector3(-0.0349576, 1.21921, 4.71239)"/>
+					<param key="uv_scale" value="Vector3(15.0752, 15.0752, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== English Longbow ============================== -->
+			<node name="wpn_fps_bow_long_body_standard">
+				<node name="b2301304cec82403">
+					<param key="uv_offset_rot" value="Vector3(0.38579, 0.886474, 1.64582)"/>
+					<param key="uv_scale" value="Vector3(11.6903, 11.6903, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== DECA Technologies Compound Bow ============================== -->
+			<!-- Default Receiver -->
+			<node name="wpn_fps_bow_elastic_body_regular">
+				<node name="20b9aa92fd142f97">
+					<param key="uv_scale" value="Vector3(6.39841, 6.39841, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.133678, 1.05503, 3.10838)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			<!-- Tactical Frame -->
+			<node name="wpn_fps_bow_elastic_body_tactic">
+				<node name="4e13d5787bf80bf3">
+					<param key="uv_offset_rot" value="Vector3(0.116678, 0.863775, 3.15035)"/>
+					<param key="uv_scale" value="Vector3(11.4996, 11.4996, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			
+			
+			
+			<!-- ============================== Light Crossbow ============================== -->
+			<node name="wpn_fps_bow_frankish_body_standard">
+				<node name="b2301304cec82403">
+					<param key="uv_offset_rot" value="Vector3(0.120678, 0.871855, 0.036)"/>
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+					<param key="uv_scale" value="Vector3(5.77864, 4.44275, 1)"/>
+				</node>
+			</node>
+			<!-- ============================== Heavy Crossbow ============================== -->
+			<node name="wpn_fps_bow_arblast_body_standard">
+				<node name="3b82f8b652b5a0b0">
+					<param key="uv_offset_rot" value="Vector3(0.113217, 0.732679, 0)"/>
+					<param key="uv_scale" value="Vector3(13.5496, 13.5496, 1)"/>
+					<param key="sticker_name" value="stk_snake_flip_classic.tga"/>
+				</node>
+			</node>
+			<!-- ============================== Airbow ============================== -->
+			<node name="wpn_fps_bow_ecp_body_upper">
+				<node name="e0e6f018064c24b3">
+					<param key="sticker_name" value="stk_dual_classic.tga"/>
+					<param key="uv_scale" value="Vector3(2.10769, 2.10769, 1)"/>
+					<param key="uv_offset_rot" value="Vector3(0.38171, 0.807537, 1.5708)"/>
+				</node>
+			</node>
+			<!-- ============================== Pistol Crossbow ============================== -->
+			<node name="wpn_fps_bow_hunter_body_standard">
+				<node name="c3ba24da2eab3277">
+					<param key="uv_offset_rot" value="Vector3(0.111138, 0.920013, 0)"/>
+					<param key="uv_scale" value="Vector3(7.49493, 7.49493, 1)"/>
+					<param key="sticker_name" value="stk_text_classic.tga"/>
+				</node>
+			</node>
+			
+			
+			
+		</node>
+	</node>
+</ugcitem>

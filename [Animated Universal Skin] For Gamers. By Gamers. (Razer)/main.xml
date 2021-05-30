@@ -1,0 +1,41 @@
+<mod name="[Animated Universal Skin] For Gamers. By Gamers. (Razer)" author="fragtrane" min_lib_version="3.38">
+	<AssetUpdates provider="github" id="fragtrane/PD2-For-Gamers-By-Gamers-Skin" version_file="$ModPath$/version.txt" release="true"/>
+	
+	<Localization directory="localization" default="english.txt"/>
+	
+	<WeaponSkin
+		id="razer_classic"
+		weapon_id="universal"
+		name="bm_wskn_razer_classic"
+		universal="true"
+		skin_folder="assets/razer_classic"
+	/>
+	
+	<WeaponSkin
+		id="razer_quartz"
+		weapon_id="universal"
+		name="bm_wskn_razer_quartz"
+		universal="true"
+		skin_folder="assets/razer_quartz"
+	/>
+	
+	<WeaponSkin
+		id="razer_chroma"
+		weapon_id="universal"
+		name="bm_wskn_razer_chroma"
+		universal="true"
+		skin_folder="assets/razer_chroma"
+	/>
+	
+	<Hooks>
+		<hook file="hooks/setup.lua" source_file="lib/managers/menumanager"/>
+		<hook file="hooks/raycastweaponbase.lua" source_file="lib/units/weapons/raycastweaponbase"/>
+		<hook file="hooks/sawweaponbase.lua" source_file="lib/units/weapons/sawweaponbase"/>
+	</Hooks>
+	
+	<AddFiles directory="assets">
+		<dds path="guis/dlcs/razer_classic/weapon_skins/razer_classic"/>
+		<dds path="guis/dlcs/razer_quartz/weapon_skins/razer_quartz"/>
+		<dds path="guis/dlcs/razer_chroma/weapon_skins/razer_chroma"/>
+	</AddFiles>
+</table>

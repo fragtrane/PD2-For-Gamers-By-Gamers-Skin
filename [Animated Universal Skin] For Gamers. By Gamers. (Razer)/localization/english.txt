@@ -1,0 +1,5 @@
+{
+	"bm_wskn_razer_classic" : "For Gamers. By Gamers. - Classic (Animated)",
+	"bm_wskn_razer_quartz" : "For Gamers. By Gamers. - Quartz (Animated)",
+	"bm_wskn_razer_chroma" : "For Gamers. By Gamers. - Chroma (Animated)"
+}
